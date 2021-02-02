@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Custom-Style-Sheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .blackbg {
+            background-color: black;
+        }
+
+        .img-mythumbnail {
+            padding: 2px;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: .25rem;
+            max-width: 100%;
+            width: 518px;
+            height: 356px !important;
+        }
+
+        section {
+            flex-flow: row wrap !important;
+        }
+
+        .test {
+            padding: 15px 0px !important;
+        }
+
+        @media only screen and (min-width:768px) {
+
+            .test {
+                padding: 54px 0px !important;
+            }
+
+            img {
+                height: 292px !important;
+            }
+        }
+    </style>
+    
+    <!-- //Custom-Style-Sheet -->
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-md-4 col-lg-4">
+                    <img src="img/Dipak.jpg" class="img-mythumbnail">
+                </div>
+                <div class="col-md-8 col-lg-8">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row flex-nowrap justify-content-between
+                                align-items-center bg-dark text-white" style="padding: 1.84rem!important;">
+                            <section>
+                                <h1 class="display">Dipak Mendapara</h1>
+                                <h4>18SOECE11035</h4>
+                            </section>
+                            <div><i class="fa fa-google-plus"></i></div>
+                            <div><i class="fa fa-facebook"></i></div>
+                            <div><i class="fa fa-instagram"></i></div>
+                            <div><i class="fa fa-youtube"></i></div>
+                        </div>
+                        <div class="p-2 blackbg text-white">
+                            Web and Android Developer
+                        </div>
+
+                        <div class="d-flex text-white">
+                            <div class="bg-success text-center p-4 test
+                                    flex-fill" data-toggle="collapse" data-target="#home"><i class="fa fa-home fa-2x
+                                        d-block"></i>Home</div>
+                            <div class="bg-danger text-center p-4 test
+                                    flex-fill" data-toggle="collapse" data-target="#resume"><i class="fa fa-file fa-2x
+                                        d-block"></i>Resume</div>
+                            <div class="bg-warning text-center p-4 test
+                                    flex-fill" data-toggle="collapse" data-target="#work"><i class="fa fa-briefcase fa-2x
+                                        d-block"></i>Work</div>
+                            <div class="bg-primary text-center p-4 test
+                                    flex-fill" data-toggle="collapse" data-target="#contact"><i class="fa fa-address-card
+                                        fa-2x d-block"></i>Contact</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <!-- main -->
+    <div class="container">
+        <div id="home" class="collapse">
+            <div class="bg-success p-4 text-white">
+                <h2>My Resume</h2>
+                <p>The fa-fw class is used to set icons at a fixed width. This class is useful when different icon widths throw off alignment. Especially useful in Bootstrap's navlists and list groups.</p>
+            </div>
+            <div class="border p-4">
+                <h2>My Skills</h2>
+                <p>The fa-fw class is used to set icons at a fixed width. This class is useful when different icon widths throw off alignment. Especially useful in Bootstrap's navlists and list groups.</p>
+                <h3>HTML</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:90%">90%</div>
+                </div>
+                <h3>CSS</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:70%">65%</div>
+                </div>
+                <h3>ANGULAR</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width:20%">20%</div>
+                </div>
+                <h3>NODE</h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:10%">15%</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- work exp -->
+        <div id="resume" class="collapse">
+            <div class="bg-danger p-4 text-white">
+                <h2>My Resume</h2>
+                <p>The fa-fw class is used to set icons at a fixed width. This class is useful when different icon widths throw off alignment. Especially useful in Bootstrap's navlists and list groups.</p>
+            </div>
+
+            <div class="border p-4">
+                <h2>Where I Worked?</h2>
+                <p>The fa-fw class is used to set icons at a fixed width. This class is useful when different icon widths throw off alignment. Especially useful in Bootstrap's navlists and list groups.</p>
+
+                <div class="card-deck text-center">
+                    <div class="card">
+                        <div class="card-header text-uppercase font-weight-bold">
+                            Web Developer
+                        </div>
+                        <div class="card-body">
+                            <p>The fa-fw class is used to set icons at a fixed width. This class is useful when different icon widths throw off alignment. Especially useful in Bootstrap's navlists and list groups.</p>
+                            <p class="text-white bg-dark">As a Front End Developer</p>
+                            <p class="text-white bg-dark">As a Back End Developer</p>
+                        </div>
+                        <div class="card-footer">
+                            Date : 2015-2018
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header text-uppercase font-weight-bold">
+                            Web Developer
+                        </div>
+                        <div class="card-body">
+                            <p>The fa-fw class is used to set icons at a fixed width. This class is useful when different icon widths throw off alignment. Especially useful in Bootstrap's navlists and list groups.</p>
+                            <p class="text-white bg-dark">As a Front End Developer</p>
+                            <p class="text-white bg-dark">As a Back End Developer</p>
+                        </div>
+                        <div class="card-footer">
+                            Date : 2015-2018
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header text-uppercase font-weight-bold">
+                            Web Developer
+                        </div>
+                        <div class="card-body">
+                            <p>The fa-fw class is used to set icons at a fixed width. This class is useful when different icon widths throw off alignment. Especially useful in Bootstrap's navlists and list groups.</p>
+                            <p class="text-white bg-dark">As a Front End Developer</p>
+                            <p class="text-white bg-dark">As a Designer</p>
+                        </div>
+                        <div class="card-footer">
+                            Date : 2015-2018
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="mt-0 alert p-5 bg-dark text-center">
+                <div class="btn btn-info"><i class="fa fa-download mr-2"></i>Download </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Default-JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- //Default-JavaScript -->
+</body>
+
+</html>
